@@ -1,0 +1,28 @@
+.crds-button {
+  background-color: #3b6e8f !important;
+  border-radius: 4px !important;
+  color: #fff !important;
+}
+.body-border {
+  box-sizing: border-box;
+  color: $black;
+}
+.wrapper {
+  box-sizing: border-box;
+  padding: 75px 50px;
+}
+.footer {
+  background-color: $light-gray !important;
+  box-sizing: border-box;
+  color: $dark-gray !important;
+  small {
+    color: $dark-gray !important;
+    margin-top: 20px;
+    line-height: 20px !important;
+  }
+}
+.crds-logo {
+  width: 138.5px;
+  height: 36px;
+  margin: 30px;
+}
