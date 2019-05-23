@@ -1,7 +1,7 @@
 <container class="header">
   <row>
     <columns>
-      <img src="./assets/img/crossroads-church-logo.svg" alt="Crossroads" class="crds-logo">
+      <a href="https://www.crossroads.net/"><img src="https://design.crossroads.net/assets/svgs/crossroads-church-logo.svg" alt="Crossroads" class="crds-logo"></a>
     </columns>
   </row>
 </container>
@@ -14,7 +14,7 @@
     </row>
     <row>
       <columns>
-        <p class="text-center">Hi Silas,</p>
+        <p class="text-center">Hi ${user.firstName},</p>
       </columns>
     </row>
     <row>
@@ -30,7 +30,7 @@
     <row>
       <columns>
         <center>
-          <button href="#" class="radius large">Unlock Account</button>
+          <button href="${baseURL}/signin/unlock" class="radius large">Unlock Account</button>
         </center>
       </columns>
     </row>

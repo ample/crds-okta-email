@@ -1,7 +1,7 @@
 <container class="header">
   <row>
     <columns>
-      <img src="./assets/img/crossroads-church-logo.svg" alt="Crossroads" class="crds-logo">
+      <a href="https://www.crossroads.net/"><img src="https://design.crossroads.net/assets/svgs/crossroads-church-logo.svg" alt="Crossroads" class="crds-logo"></a>
     </columns>
   </row>
 </container>
@@ -14,7 +14,7 @@
     </row>
     <row>
       <columns>
-        <p class="text-center">Hi Silas,</p>
+        <p class="text-center">Hi ${user.firstName},</p>
       </columns>
     </row>
     <row>
@@ -24,13 +24,13 @@
     </row>
     <row>
       <columns>
-       <p class="text-center">Click this link to confirm (newEmail) is your correct address:</p>
+       <p class="text-center">Click this link to confirm <strong>(newEmail)</strong> is your correct address:</p>
       </columns>
     </row>
     <row>
       <columns>
         <center>
-         <button href="#" class="radius large">Confirm Email Change</button>
+         <button href="${baseURL}/verify-email-change/${verificationToken}" class="radius large">Confirm Email Change</button>
         </center>
      </columns>
     </row>
@@ -41,7 +41,7 @@
     </row>
     <row>
       <columns>
-        <p class="text-center">Go to your <a href="#">Sign-in Help</a> page. Then click the Request help link.</p>
+        <p class="text-center">Go to your <a href="${baseURL}/help/login">Sign-in Help</a> page. Then click the Request help link.</p>
       </columns>
     </row>
     <row>

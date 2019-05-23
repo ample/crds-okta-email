@@ -1,19 +1,30 @@
-.crds-button {
-  background-color: #3b6e8f !important;
-  border-radius: 4px !important;
-  color: #fff !important;
+// .crds-button {
+//   background-color: #3b6e8f !important;
+//   border-radius: 4px !important;
+//   color: #fff !important;
+// }
+.button td td {
+  padding: 15px 20px 15px 20px;
+
+  a {
+    padding: 0 !important;
+  }
+}
+.wrapper {
+  // box-sizing: border-box;
+  width: 550px;
 }
 .body-border {
-  box-sizing: border-box;
+  // box-sizing: border-box;
   color: $black;
 }
 .wrapper {
-  box-sizing: border-box;
+  // box-sizing: border-box;
   padding: 75px 50px;
 }
 .footer {
   background-color: $light-gray !important;
-  box-sizing: border-box;
+  // box-sizing: border-box;
   color: $dark-gray !important;
   small {
     color: $dark-gray !important;

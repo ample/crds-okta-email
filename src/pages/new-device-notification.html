@@ -1,7 +1,7 @@
 <container class="header">
     <row>
       <columns>
-        <img src="./assets/img/crossroads-church-logo.svg" alt="Crossroads" class="crds-logo">
+        <a href="https://www.crossroads.net/"><img src="https://design.crossroads.net/assets/svgs/crossroads-church-logo.svg" alt="Crossroads" class="crds-logo"></a>
       </columns>
     </row>
 </container>
@@ -14,12 +14,12 @@
     </row>
     <row>
       <columns>
-        <p class="text-center">Hi Silas,</p>
+        <p class="text-center">Hi ${user.firstName},</p>
       </columns>
     </row>
     <row>
       <columns>
-        <p class="text-center">Your Okta Account silas@helloample.com was just used to sign-in from a new or unrecognized device, browser, or application.</p>
+        <p class="text-center">Your Okta Account ${user.login} was just used to sign-in from a new or unrecognized device, browser, or application.</p>
       </columns>
     </row>
     <row>
@@ -29,7 +29,7 @@
     </row>
     <row>
       <columns>
-        <p class="text-center">(browserName Placeholder) <br> Fri, May 17, 2019 <br> (location Placeholder) <br> IP: (IP Placeholder)</p>
+        <p class="text-center">${request.browser} <br> ${request.date} <br> ${request.location} <br> ${request.ipAddress}</p>
       </columns>
     </row>
     <row>
